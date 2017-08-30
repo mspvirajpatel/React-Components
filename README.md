@@ -12,9 +12,7 @@
 
 //Button
 <ButtonsWithIcons styles={{width: 90,height: 90}} onPress={this.onList}>
-
  <Image source={home} style={{width: 60,height: 60}} />
- 
  <Text style={{
         fontSize: 10,
         color: "#ffffff",
@@ -23,9 +21,7 @@
         alignItems: 'center',
         textAlign: 'center',
     }}>{AppText.homebtnSearch}</Text>
-    
 </ButtonsWithIcons>
-
 
 //Loading indicates(
 <BallIndicator color={"#ffffff"} style={{marginBottom:20}} />
